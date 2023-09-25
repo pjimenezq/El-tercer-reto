@@ -7,6 +7,7 @@
 3. Cree un repositorio en github en donde muestre el desarrollo de la actividad y comparta el enlace por el canal de slack reto_3
 
 ## Algoritmo para obtener los números primos
+
 **Pseudocógigo**
 
 ```pseudocode
