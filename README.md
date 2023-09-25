@@ -53,3 +53,20 @@ I-->J{i es menor o igual a n?}
 J--sí-->D
 J--no-->K(fin)
 ```
+```mermaid
+flowchart TD
+A(inicio)-->B[número n mayor o igual a 2]
+B-->C[i=2]
+C-->D[x=2]
+D-->Z{x es menor o igual a la raíz cuadrada de i?}
+Z--sí-->E{residuo de i/x es cero?}
+E--no-->P[x=x+1]
+P-->Z
+E--sí-->G[i no es primo]
+Z--no-->H[i es primo]
+H-->I[i=i+1]
+G-->I
+I-->J{i es menor o igual a n?}
+J--sí-->D
+J--no-->K(fin)
+```
